@@ -1,0 +1,180 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    background-color: var(--primary-color);
+}
+
+p {
+    line-height: 1.5;
+}
+
+main {
+    margin: 0 auto;
+}
+
+nav {
+    height: 72px;
+    background: black;
+    width: 100%;
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 0 0;
+    box-sizing: border-box;
+}
+
+nav a {
+    padding: 0 32px;
+    color: #ffffff;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.active {
+    color: #f783ae;
+}
+
+#logo-img {
+    display: flex;
+    height: auto;
+    padding: auto;
+    align-items: center;
+    transition: 0.4s;
+}
+
+#logo-img img {
+    height: 77px;
+}
+
+.page-heading {
+    font-size: 32px;
+    border-left: 3px solid var(--secondary-color);
+    border-right: 3px solid var(--secondary-color);
+    transition: all 0.4s;
+    display: inline-block;
+    padding: 4px 32px;
+    margin-top: 100px;
+    margin-left: 80px;
+    color: var(--secondary-color);
+}
+
+.page-heading:hover {
+    font-size: 50px;
+    padding: 10px 200px;
+    background: red;
+}
+
+.card {
+    background-color: var(--card-color);
+    border-radius: 20px;
+    box-shadow: 0 0 7px var(--secondary-color);
+    margin: 89px;
+    padding: 20px;
+    transition: all 0.4s;
+    color: var(--secondary-color);
+}
+
+.card:hover {
+    box-shadow: 0 0 20px var(--secondary-color);
+    transform: scale(1.03);
+    font-size: 17px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+:root{
+    --primary-color: rgb(216, 213, 213);
+    --secondary-color: #000000;
+    --card-color:white;
+    --comment-color: #e0dede; 
+  }
+  .dark{
+    --card-color: #434040;
+    --primary-color: #121212;
+    --secondary-color: #ffffff;
+    --comment-color: #b5b5b5;
+  }
+  #theam{
+    cursor: pointer;
+  }
+  #comment form {
+    width: 50%;
+    background-color: var(--card-color);
+    padding: 20px;
+    border: 2px solid var(--secondary-color);
+    box-shadow: 5px 5px 10px var(--secondary-color);
+  }
+  #comment label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    color: var(--secondary-color);
+  }
+  #comment input[type="text"],
+  #comment textarea {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: var(--comment-color);
+    border: 1px solid var(--secondary-color);
+    padding: 5px;
+  
+  }
+  #comment input[type="submit"] {
+    margin-left: 105px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+    
+    span a:hover{
+        text-decoration-line: none;
+        color: red;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    p{
+        margin-left: 3px;
+    }
+    footer{
+        margin-left: 80px;
+        color:var(--secondary-color)
+    }
+    footer h2{
+        font-size: 32px;
+        border-left: 3px solid var(--secondary-color);
+        border-right: 3px solid var(--secondary-color);
+        transition: all 0.4s;
+        display: inline-block;
+        padding: 4px 32px;
+        margin-top: 100px;
+        color: var(--secondary-color);
+    }
+    footer h2:hover{
+        font-size: auto;
+        padding: 10px 200px;
+        background: red;
+    }
